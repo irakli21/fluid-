@@ -45,5 +45,7 @@ width: 100px;
 height: 3px;
 background-color: red;
 display: block;
-margin-left: 700px;
+margin: 0 auto;
+/*  margin 0 auto ცენტრში რომ იყოს */
    }
+   
