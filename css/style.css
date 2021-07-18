@@ -38,3 +38,12 @@
     background-color: springgreen;
     margin: 0 10px;
    }
+   .wraper::after {
+content: '';
+clear: both;
+width: 100px;
+height: 3px;
+background-color: red;
+display: block;
+margin-left: 700px;
+   }
