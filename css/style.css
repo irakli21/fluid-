@@ -28,11 +28,13 @@
     color: red;
     font-size: 20px;
     text-transform: uppercase;
-}
+    margin: 10px;
+   }
 .text2::after {
-    content: 'lesson';
+    content: '';
+    height: 20px;
+    width: 3px;
     display: inline-block;
-    color: seagreen;
-    font-size: 20px;
-    text-transform: lowercase;
-}
+    background-color: springgreen;
+    margin: 0 10px;
+   }
