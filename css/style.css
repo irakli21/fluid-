@@ -1,0 +1,38 @@
+.image {
+    float: right;
+    
+}
+.text {
+    float: left;
+    width: 500px;
+}
+.clear {
+    clear: both;
+}
+.text1 {
+    display: inline-block;
+}
+.text2 {
+    display: inline-block;
+}
+/* .divider {
+    display: inline-block;
+    height: 15px;
+    width: 3px;
+    background-color: red;
+    margin: 0 10px;
+} */
+.text2::before {
+    content: 'lab';
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text2::after {
+    content: 'lesson';
+    display: inline-block;
+    color: seagreen;
+    font-size: 20px;
+    text-transform: lowercase;
+}
